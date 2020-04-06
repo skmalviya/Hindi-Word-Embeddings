@@ -4,6 +4,8 @@ bin-release/
 [Oo]bj/
 [Bb]in/
 
+data_pretrained_ELMO.zip
+
 # Other files and folders
 .settings/
 
