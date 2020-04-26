@@ -3,6 +3,7 @@
 1.hindi-word-embeddings : https://github.com/manikbhandari/hindi-word-embeddings
 
 ```
+conda activate pydial_py37
 python3 manikbhandari_hindi_w2v.py
 Content Used : 100000 sentences from 'monolingual.hi' + final_testing_diag.txt + final_training_diag.txt + final_valid_diag.txt
 No of lines  :  106817
