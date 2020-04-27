@@ -12,6 +12,10 @@ def train_w2v():
 	    #for line in f:
 	    #	head.append(line)
 	    #	l += 1
+	## Writing 100000 sentences to monolingual.small.hi file
+	fw = open('monolingual.small.hi','w')
+	fw.write(''.join(head))    
+	
 	with open('final_testing_diag.txt') as f:
 		for line in f:
 			head.append(line)
