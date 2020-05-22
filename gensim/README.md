@@ -1,5 +1,14 @@
 ## Help Links :
 
+### Convert Genism model .bin --> .txt
+
+```
+(pydial_py37)$ python3
+>>> from gensim.models import Word2Vec
+>>> model = Word2Vec.load("word2vec.model")
+>>> model.wv.save_word2vec_format('test_w2v.txt', binary=False)
+```
+
 1.Rerun on complete data (21 May 2020): hindi-word-embeddings : https://github.com/manikbhandari/hindi-word-embeddings
 
 ```
