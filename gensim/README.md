@@ -1,5 +1,20 @@
 ## Help Links :
 
+1.Rerun on complete data (21 May 2020): hindi-word-embeddings : https://github.com/manikbhandari/hindi-word-embeddings
+
+```
+conda activate pydial_py37
+python3 manikbhandari_hindi_w2v.py
+Content Used : 100000 sentences from 'monolingual.hi' + final_testing_diag.txt + final_training_diag.txt + final_valid_diag.txt
+No of lines : 108998
+Total No of words : 2235549
+Total No of Unique words : 211169
+Training started...
+Training finished.
+Time taken in seconds =  16.82583498954773
+Vector-Dimension = 300
+```
+
 1.hindi-word-embeddings : https://github.com/manikbhandari/hindi-word-embeddings
 
 ```
